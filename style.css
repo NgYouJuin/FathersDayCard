@@ -119,11 +119,11 @@ html, body {
     stroke-dasharray: 140 540;
     stroke-dashoffset: -474;
     stroke-width: 8px;
-    stroke: white;
+    stroke: black;
   }
   
   .text2 {
-    color: white;
+    color: black;
     font-family: 'Roboto Condensed';
     font-size: 35px;
     letter-spacing: 8px;
