@@ -1,4 +1,8 @@
-
+html, body {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
 
 #outside {
     z-index: 1;
@@ -9,6 +13,14 @@
     text-align: center;
     transition: 1s;
     transform-origin: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
   .open-card {
@@ -80,13 +92,13 @@
     stroke-dasharray: 140 540;
     stroke-dashoffset: -474;
     stroke-width: 8px;
-    stroke: black;
+    stroke: blue;
   }
   
   .text {
     color: black;
     font-family: 'Roboto Condensed';
-    font-size: 22px;
+    font-size: 35px;
     letter-spacing: 8px;
     line-height: 32px;
     position: relative;
@@ -113,7 +125,7 @@
   .text2 {
     color: white;
     font-family: 'Roboto Condensed';
-    font-size: 22px;
+    font-size: 35px;
     letter-spacing: 8px;
     line-height: 32px;
     position: relative;
